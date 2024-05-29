@@ -71,3 +71,21 @@
 .market-cap {
     text-align: right;
 }
+
+.table-layout div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.table-layout div img {
+    width: 35px;
+}
+
+.green {
+    color: rgb(77, 226, 77);
+}
+
+.red {
+    color: rgb(214, 24, 24);
+}
