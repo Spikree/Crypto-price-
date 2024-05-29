@@ -1,0 +1,53 @@
+.logo {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar li {
+    cursor: pointer;
+    color: #757F9A;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: max(1vw,12px);
+}
+
+.navbar select {
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid #757F9A;
+    background: transparent;
+    color: #757F9A;
+}
+
+.navbar select:active {
+    border: 2px solid #757F9A;
+}
+
+.navbar option {
+    background-color: #757F9A;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+
